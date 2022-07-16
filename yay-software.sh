@@ -45,8 +45,8 @@ PKGS=(
 
     # DEVELOPMENT ---------------------------------------------------------
     
-    'yarn'
-    'npm'
+    'yarn'                      # Dependency management
+    'npm'                       # Dependency management
     'rust'
     'asdf-vm'
 
@@ -54,7 +54,7 @@ PKGS=(
 
     'spotify'                   # Music player
     'screenkey'                 # Screencast your keypresses
-    # 'aftershotpro3'             # Photo editor
+    # 'aftershotpro3'           # Photo editor
 
     # POST PRODUCTION -----------------------------------------------------
 
@@ -63,16 +63,6 @@ PKGS=(
     # COMMUNICATIONS ------------------------------------------------------
 
     'skypeforlinux-stable-bin'  # Skype
-
-    # THEMES --------------------------------------------------------------
-
-    'gtk-theme-arc-git'
-    'adapta-gtk-theme-git'
-    'paper-icon-theme'
-    'tango-icon-theme'
-    'tango-icon-theme-extras'
-    'numix-icon-theme-git'
-    'sardi-icons'
 )
 
 
