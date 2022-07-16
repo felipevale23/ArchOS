@@ -25,6 +25,7 @@ $   ./printers.sh
 $   ./pacman-software.sh
 $   ./yay-software.sh
 $   ./setup.sh
+$   ./theme.sh
 ```
 ## Reboot
 ```
