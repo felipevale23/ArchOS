@@ -13,13 +13,16 @@
 #-------------------------------------------------------------------------
 
 echo
-echo "INSTALLING AUR SOFTWARE"
+echo "INSTALLING YAY SOFTWARE"
 echo
 
-cd "${HOME}"
+cd "/tmp"
 
-echo "CLOING: AURIC"
-git clone "https://github.com/rickellis/AURIC.git"
+echo "CLONING: YAY"
+git clone "https://aur.archlinux.org/yay.git"
+
+cd "/yay"
+echo "makepkg -si"
 
 
 PKGS=(
@@ -42,7 +45,9 @@ PKGS=(
 
     # DEVELOPMENT ---------------------------------------------------------
     
-    'visual-studio-code-bin'    # Kickass text editor
+    'yarn'
+    'npm'
+    'rust'
 
     # MEDIA ---------------------------------------------------------------
 
@@ -70,11 +75,8 @@ PKGS=(
 )
 
 
-cd ${HOME}/AURIC
-chmod +x auric.sh
-
 for PKG in "${PKGS[@]}"; do
-    ./auric.sh -i $PKG
+    yay -S $PKG
 done
 
 echo
