@@ -70,6 +70,7 @@ PKGS=(
     'catfish'               # Filesystem search
     'conky'                 # System information viewer
     'nemo'                  # Filesystem browser
+    'neovim'
     'veracrypt'             # Disc encryption utility
     'variety'               # Wallpaper changer
     'xfburn'                # CD burning application
@@ -93,8 +94,7 @@ PKGS=(
     'postfix'               # SMTP mail server
     'python'                # Scripting language
     'qtcreator'             # C++ cross platform IDE
-    'qt5-examples'          # Project demos for Qt
-    'yarn'                  # Dependency management (Hyper needs this)
+    'qt5-examples'          # Project demos for Qt    
 
     # WEB TOOLS -----------------------------------------------------------
 
