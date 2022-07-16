@@ -29,6 +29,7 @@ $   ./pacman-software.sh
 $   ./yay-software.sh
 $   ./setup.sh
 $   ./theme.sh
+$   ./plugins.sh
 ```
 ## Reboot
 ```
