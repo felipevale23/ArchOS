@@ -33,6 +33,8 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
+echo "systemctl enable NetworkManager"
+
 echo
 echo "Done!"
 echo
