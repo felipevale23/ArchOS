@@ -1,5 +1,8 @@
 # ArchOS
 ---
+```
+$   ./init.sh
+```
 ## Initialize .gitconfig file 
 So we can clone this repo...
 
@@ -16,7 +19,6 @@ $   git clone https://github.com/felipevale23/ArchOS.git
 ## Run ArchOS files
 Run the following scripts:
 ```
-$   ./init.sh
 $   ./xorg.sh
 $   ./kde-plasma.sh 
 $   ./network.sh 
