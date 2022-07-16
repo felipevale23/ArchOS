@@ -13,7 +13,7 @@ git config --global credential.helper 'cache --timeout=31536000
 $   git clone https://github.com/felipevale23/ArchOS.git
 ```
 ---
-##Run ArchOS files
+## Run ArchOS files
 Run the following scripts:
 ```
 $   ./xorg.sh
@@ -26,11 +26,11 @@ $   ./pacman-software.sh
 $   ./yay-software.sh
 $   ./setup.sh
 ```
-##Reboot
+## Reboot
 ```
 $   reboot
 ```
-##Initialize Xorg:
+## Initialize Xorg:
 At the terminal, run:
 ```
 $   xinit
